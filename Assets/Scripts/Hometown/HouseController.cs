@@ -47,7 +47,7 @@ namespace Project.Hometown
             //add implementation
             //_level = _upgradeableData.Level;
             //_maxLevel = _upgradeableData.MaxLevel;
-            _upgradeableRepository.GetUpgradeableData(o =>_upgradeableData.LevelUp());
+            _upgradeableRepository.GetUpgradeableData(up =>_upgradeableData.LevelUp());
             //Debug.Log(_upgradeableData.MaxLevel);
         }
 
